@@ -47,7 +47,7 @@
   Installing:
   
   1. Follow this download link:
-  2. Download the fold to your computer
+  2. Download the folder to your computer
   3. Open Manage Extensions in Google Chrome
     - Under the 3 dots in the top right-hand corner
     - Select Extensions and then Manage Extensions
