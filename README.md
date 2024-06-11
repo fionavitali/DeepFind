@@ -42,7 +42,7 @@
 
 </pre>
 # **Instructions**
-<pre>
+
   ## Loading the project from github 
 
 ### Get the code
@@ -116,7 +116,8 @@ The face recognition library uses C++, another programming language to recognize
 This creates a local host that will enable us to make API calls to our python backend from the frontend (our Chrome Extension). To have a better view at our API endpoints and to check that they work well we can go to *http:localhost:8000/docs*
 
 ## Make calls to our API 
-</pre>
+
+
 # **Contact**
 <pre>
   Send me a quick email if you have any questions or concerns!
