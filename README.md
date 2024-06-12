@@ -41,7 +41,12 @@
   (to ML standards) so be considerate when relying on this tool for utmost accuracy. 
 
 </pre>
-# **Instructions**
+
+# **Video Instructions & Demo**
+ ---
+
+
+# **Written Instructions**
 
   ## Loading the project from github 
 
