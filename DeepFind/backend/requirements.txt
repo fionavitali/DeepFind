@@ -1,7 +1,0 @@
-fastapi 
-uvicorn 
-tensorflow
-matplotlib
-numpy
-opencv-python
-face_recognition
