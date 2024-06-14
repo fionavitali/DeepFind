@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Deep Fake Extension</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <div class="popup-content">
+      <h1>DEEPFIND</h1>
+      <p class="centered-text">A Deepfake Detection Chrome Extension!</p>
+
+      <h2>Tutorial</h2>
+      <p>Click the button below for more information about DeepFind!</p>
+      <div id="model_info"></div>
+      <div class="button-container">
+        <button id="showModelInfo">Model Info</button>
+        <button id="Github">Github</button>
+        
+      </div>
+      <h2>Deepfake Detector</h2>
+      <img id="detected_face" src='images/apple.png'/>
+      <div id="response"></div>
+      <script src="popup.js"></script>
+    </div>
+  </body>
+</html>

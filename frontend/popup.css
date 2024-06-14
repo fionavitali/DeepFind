@@ -1,0 +1,101 @@
+.popup-content {
+    width: 400px; 
+    height: 370px;
+}
+.popup-content h1, .popup-content p.centered-text {
+  margin: 0;
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Press Start 2P', sans-serif;
+    color: rgb(32, 43, 250);
+    font-size: 33px;
+  
+}
+
+#showModelInfo {
+  display: block;
+  margin: 0 auto 20px; /* This will horizontally center the button and add space only below the button */
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif; /* Change font family */
+  border-radius: 10px; /* Add rounded corners */
+  background-color: #131d5c; /* Change button background color */
+  color: inherit; /* Maintain text color */
+  padding: 8px 12px;
+  color: white;
+  transition: background-color 0.3s; /* Add transition effect */
+}
+
+#showModelInfo:hover {
+  background-color: #1629a1; /* Change button background color on hover */
+}
+
+
+#Github {
+  display: block;
+  margin: 0 auto 20px; /* This will horizontally center the button and add space only below the button */
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif; /* Change font family */
+  border-radius: 10px; /* Add rounded corners */
+  background-color: #131d5c; /* Change button background color */
+  color: inherit; /* Maintain text color */
+  padding: 8px 12px;
+  color: white;
+  transition: background-color 0.3s; /* Add transition effect */
+}
+
+#Github:hover {
+  background-color: #1629a1; /* Change button background color on hover */
+}
+
+
+
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(202, 202, 204);
+
+}
+
+p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(202, 202, 204);
+  font-size: 15px;
+
+}
+
+
+.centered-text {
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
+  color: rgb(32, 43, 250);
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+
+
+body {
+  background-color: black;
+  border-color:rgb(40, 40, 40) ;
+}
+
+
+#showModelInfo, #Github {
+  display: inline-block; /* Display buttons as inline elements */
+  margin-right: 10px; /* Add some space between the buttons */
+}
+
+.button-container {
+  text-align: center; /* Center the buttons horizontally */
+}
+
+#detected_face {
+  display: block;
+  margin: 0 auto; /* This will horizontally center the image */
+}
