@@ -42,11 +42,9 @@
 
 </pre>
 
-# **Video Instructions & Demo**
- ---
+---
 
-
-# **Written Instructions**
+# **Instructions**
 
   ## Loading the project from github 
 
