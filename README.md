@@ -50,22 +50,27 @@
 
 ### Get the code
 
-- Open a new project in VSCode
-- On the main page click the 'Clone a GitHub Repository' option 
-- Copy paste the repository url: *git@github.com:nathankam/DeepFakeExt.git*
-- Select a location for the project on your computer
+- On the main page click the 'Code' dropdown
+- Select 'Download Zip'
+- Save to a spot on your computer
+- Open a new page on VScode
+- Open DeepFind's zip on VScode
 
-### Set the project on your computer to match the remote repository on GitHub 
+### Add to Google Chrome
 
-- git remote add origin *https://github.com/nathankam/DeepFakeExt*
+- Open Google Chrome
+- Go to Manage Extensions under the three dots in upper right-hand corner
+- Select load unpacked
+- Inside of DeepFind's Folder, select the 'frontend' folder
+- Pin DeepFind under the puzzle piece in upper right-hand corner
 
 ## Run the project
 
-We need to install the librairies that will be used by our backend. 
+We need to install the libraries that will be used by our backend. 
 - Uvicorn: Running a local server 
 - FastAPI: API library
 - Pillow: Handling images 
-- Numpy: Handling images as array of numbers 
+- Numpy: Handling images as an array of numbers 
 - OpenCV for computer vision 
 
 
@@ -103,12 +108,6 @@ The face recognition library uses C++, another programming language to recognize
 - Finally 
 ```pip install face_recognition```
 
-
-## Load your model in the data/models folder 
-
-- Copy your *.h5* file in the folder 
-- You can put diffferent models there if you want
-
 ## Run the Backend Server 
 
 - Open a terminal window 
@@ -118,7 +117,7 @@ The face recognition library uses C++, another programming language to recognize
 
 This creates a local host that will enable us to make API calls to our python backend from the frontend (our Chrome Extension). To have a better view at our API endpoints and to check that they work well we can go to *http:localhost:8000/docs*
 
-## Make calls to our API 
+## Make calls to our API! 
 
 
 # **Contact**
